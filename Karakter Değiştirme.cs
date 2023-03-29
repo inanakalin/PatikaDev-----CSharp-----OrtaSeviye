@@ -30,6 +30,8 @@ namespace OrtaSeviye
                     newWords[i] = newWord;
                 }
             }
+            string output = string.Join(" ", newWords);
+            Console.WriteLine(output);
         }
     }
 }
